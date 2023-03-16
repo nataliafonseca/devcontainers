@@ -1,0 +1,24 @@
+{
+  "name": "Container Base",
+  "image": "nataliabf/containerbase",
+  "postCreateCommand": "wget -O - https://raw.githubusercontent.com/nataliafonseca/devcontainers/main/init.sh | sh",
+  "mounts": [
+    {
+      "type": "bind",
+      "source": "${localEnv:HOME}/.ssh",
+      "target": "/root/.ssh,readonly"
+    }
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-portuguese",
+        "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+        "jdinhlife.gruvbox",
+        "PKief.material-icon-theme",
+        "eamodio.gitlens"
+      ]
+    }
+  }
+}

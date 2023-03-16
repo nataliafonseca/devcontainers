@@ -1,0 +1,41 @@
+{
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "icon": "terminal"
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "editor.fontFamily": "BlexMono Nerd Font, JetBrainsMono Nerd Font, Ligalex Mono, monospace",
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.mouseWheelZoom": true,
+  "editor.lineHeight": 1.75,
+  "editor.wordWrap": "on",
+  "editor.minimap.renderCharacters": false,
+  "editor.guides.bracketPairs": true,
+  "explorer.compactFolders": false,
+  "files.eol": "\n",
+  "editor.inlineSuggest.enabled": true,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.suggestSelection": "recentlyUsed",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.iconTheme": "material-icon-theme",
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.ignorePaths": [
+    ".devcontainer",
+    ".vscode"
+  ],
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "editor.selectionClipboard": false
+}
